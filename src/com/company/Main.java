@@ -10,7 +10,7 @@ public class Main {
         double c = 3.0;
         double n = scanner.nextDouble();
 
-        if (Math.pow(a, n) + Math.pow(b, n) == Math.pow(c, n)) {
+        if (Math.pow(a, n) + Math.pow(b, n) == Math.pow(c, n) && n>2) {
             System.out.println("Holy smokes, Fermat was wrong!");
         } else {
             System.out.println("No, that doesn't work.");
